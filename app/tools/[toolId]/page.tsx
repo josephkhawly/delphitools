@@ -39,7 +39,7 @@ const toolComponents: Record<string, React.ComponentType> = {
   "colorblind-sim": dynamic(() => import("@/components/tools/colorblind-sim").then(mod => mod.ColorblindSimTool)),
   "background-remover": dynamic(() => import("@/components/tools/background-remover").then(mod => mod.BackgroundRemoverTool)),
   "zine-imposer": dynamic(() => import("@/components/tools/zine-imposer").then(mod => mod.ZineImposerTool)),
-  "gradient-genny": dynamic(() => import("@/components/tools/gradient-genny").then(mod => mod.GradientGennyTool)),
+  // "gradient-genny": dynamic(() => import("@/components/tools/gradient-genny").then(mod => mod.GradientGennyTool)),
   "sci-calc": dynamic(() => import("@/components/tools/sci-calc").then(mod => mod.SciCalcTool)),
   "graph-calc": dynamic(() => import("@/components/tools/graph-calc").then(mod => mod.GraphCalcTool)),
   "algebra-calc": dynamic(() => import("@/components/tools/algebra-calc").then(mod => mod.AlgebraCalcTool)),
@@ -50,7 +50,6 @@ const toolComponents: Record<string, React.ComponentType> = {
   "image-tracer": dynamic(() => import("@/components/tools/image-tracer").then(mod => mod.ImageTracerTool)),
   "guillotine-director": dynamic(() => import("@/components/tools/guillotine-director").then(mod => mod.GuillotineDirectorTool)),
   "pdf-preflight": dynamic(() => import("@/components/tools/pdf-preflight").then(mod => mod.PdfPreflightTool)),
-  "shavian-transliterator": dynamic(() => import("@/components/tools/shavian-transliterator").then(mod => mod.ShavianTransliteratorTool)),
   "imposer": dynamic(() => import("@/components/tools/imposer").then(mod => mod.ImposerTool)),
   "paste-image": dynamic(() => import("@/components/tools/paste-image").then(mod => mod.PasteImageTool)),
 };

@@ -39,7 +39,6 @@ import {
   ScanLine,
   Slice,
   FileSearch,
-  Languages,
   Layers,
   ClipboardPaste,
 } from "lucide-react";
@@ -148,14 +147,14 @@ export const toolCategories: ToolCategory[] = [
         icon: Eye,
         href: "/tools/colorblind-sim",
       },
-      {
-        id: "gradient-genny",
-        name: "Gradient Generator",
-        description: "Create linear, corner, and mesh gradients",
-        icon: Blend,
-        href: "/tools/gradient-genny",
-        new: true,
-      },
+      // {
+      //   id: "gradient-genny",
+      //   name: "Gradient Generator",
+      //   description: "Create linear, corner, and mesh gradients",
+      //   icon: Blend,
+      //   href: "/tools/gradient-genny",
+      //   new: true,
+      // },
     ],
   },
   {
@@ -421,20 +420,6 @@ export const toolCategories: ToolCategory[] = [
         description: "Base64, URL encoding, and hash generation",
         icon: FileCode,
         href: "/tools/encoder",
-      },
-    ],
-  },
-  {
-    id: "turbo-nerd",
-    name: "Turbo-nerd Shit",
-    tools: [
-      {
-        id: "shavian-transliterator",
-        name: "Shavian Transliterator",
-        description: "Transliterate English text to the Shavian alphabet",
-        icon: Languages,
-        href: "/tools/shavian-transliterator",
-        new: true,
       },
     ],
   },

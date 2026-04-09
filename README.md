@@ -71,7 +71,3 @@ Long live the handmade web.
 - time calc
 - unit converter
 - encoding tools
-
-### turbo-nerd shit
-
-- shavian transliterator
